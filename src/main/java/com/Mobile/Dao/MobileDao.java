@@ -14,7 +14,7 @@ public class MobileDao {
 	@Autowired
 	MobileRepository mr;
 
-	public String Post(List<Declare> e)
+	public String PostPost(List<Declare> e)
 	{
 		mr.saveAll(e);
 		return "Success";

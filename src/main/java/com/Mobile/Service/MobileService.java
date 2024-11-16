@@ -16,9 +16,9 @@ public class MobileService {
 	@Autowired
 	MobileDao md;
 	
-	public String Post(List<Declare>d)
+	public String PostPost(List<Declare>d)
 	{
-		return md.Post(d);
+		return md.PostPost(d);
 	}
 	
 	

@@ -24,8 +24,8 @@ public class MobileController {
 	MobileService ms;
 
 	@PostMapping(value = "/postAll")
-	public String Post(@RequestBody List<Declare> d) {
-		return ms.Post(d);
+	public String PostPost(@RequestBody List<Declare> d) {
+		return ms.PostPost(d);
 	}
 
 	@GetMapping(value = "/getDisc")
